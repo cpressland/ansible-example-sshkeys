@@ -1,0 +1,6 @@
+- name: Load root authorized_key file
+  hosts: all
+  gather_facts: True
+
+  roles:
+    - ssh-keys

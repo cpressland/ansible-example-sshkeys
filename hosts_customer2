@@ -1,0 +1,5 @@
+[c2]
+127.0.0.1 ansible_port=2200 ansible_user=vagrant  ansible_become=true  ansible_ssh_private_key_file=.vagrant/machines/customer2/virtualbox/private_key
+
+[c2:vars]
+auth_key=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDNFCXbh3sBAuhGokY2jRDgxKrHzVn44VDbKpG9t4YZyXBMWpFVMTvbfiKB9OI6J/3dV8V8fqWp5DUdov7OWWq4wOxoebUf5uE9T8eq/MdDGXYM4EFKxP4dwurYrU/Yhw0/+pXM7SnPKup3r4DbUIdGp/SpaOHbtA3VqthvJys/L3KzWFAdLTz77x+vI7FnU9uIg8gCh0XoJtRr5rFPE8UAuahJuHG3xjZ34Wdq3PWh+KTJvhsvmYNsuugqH54ZpAL2A9Qi+tjt/7tJ89qPn3HznoDXA+zGyPg4M7HabOUamjdZwzaw8BvkqKcm46KRb/r6v7b6DOoZLxh63WCBI5Fd Customer2

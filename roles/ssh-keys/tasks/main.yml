@@ -1,0 +1,6 @@
+---
+  - name: configure customers authorized_key file for root user
+    authorized_key:
+      user: root
+      state: present
+      key: "{{ auth_key }}"
