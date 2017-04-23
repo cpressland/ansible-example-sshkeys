@@ -2,7 +2,7 @@
 
 This simple playbook deploys the authorized_key file to the root user of a specific customer site. In this instance "Customer 1" or "Customer2"
 
-In this example, "Customer 1" and "Customer 2" have different ansible hosts files which also contain the public_keys as variables
+In this example, "Customer 1" and "Customer 2" have different ansible hosts files which also contain the public keys as variables
 
 ## Usage
 
@@ -13,7 +13,7 @@ Once the Vagrant Boxes are live they can be configured with the following comman
 - Customer 1
 `ansible-playbook -i hosts_customer1 ssh.yml`
 - Customer 2
-`ansible-playbook -i hosts_customer1 ssh.yml`
+`ansible-playbook -i hosts_customer2 ssh.yml`
 
 To confirm this has worked as expected you can run the following commands:
 
